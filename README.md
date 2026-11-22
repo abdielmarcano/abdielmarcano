@@ -1,114 +1,48 @@
-# Hi, I'm Abdiel Marcano 👋
+# Abdiel Marcano
 
-Computer Engineering student at UCF (May 2026) and full-stack engineer with a 
-focus on backend systems, database architecture, embedded hardware, and analog 
-electronics. I build end to end - from PCB layouts and firmware to multi-tenant 
-web platforms and AI-integrated applications.
+I'm a Computer Engineering graduate from the University of Central Florida (May 2026). My work spans software development, embedded systems, and electronics. I enjoy building complete systems, whether that means a web application, a custom circuit board, or hardware and software working together.
 
-📄 [Portfolio](https://abdiel-portfolio.vercel.app) · 💼 [LinkedIn](https://www.linkedin.com/in/abdiel-marcano/) · 📧 abdielmarcano11@gmail.com
+I'm currently a Wire Harness Assembly Lead at 35 Technologies and have also worked as a contract full-stack developer for Crown Reserve Systems.
 
----
+[Portfolio](https://abdiel-portfolio.vercel.app) · [LinkedIn](https://www.linkedin.com/in/abdiel-marcano/) · [Email](mailto:abdielmarcano11@gmail.com)
 
-## 🛠️ Tech Stack
+## Featured Projects
 
-**Languages:** Python · TypeScript · JavaScript · C · C++ · Java · SQL · HTML/CSS  
-**Frontend:** Next.js · React  
-**Backend & DB:** Node.js · Express.js · Prisma · PostgreSQL · MongoDB Atlas · Supabase · REST APIs · JWT  
-**Embedded:** Arduino · ESP32 · Raspberry Pi CM4 · Embedded Linux · KiCad  
-**CV & AI:** YOLO · DeepSORT · OpenCV  
-**Cloud & DevOps:** Vercel · AWS · Docker · Sentry · Git · Git LFS  
-**Hardware:** PCB Design · Analog Circuits · Op-Amp Design · Signal Conditioning · Microsoldering  
-**CAD:** Fusion 360 · OnShape · Blender · 3ds Max  
-**Game Dev:** Unreal Engine 5 · Blueprints · C++ Gameplay Code
+| Project | What I built or contributed | Links |
+| --- | --- | --- |
+| **PwnBoxer** | Award-winning UCF senior design prototype connecting a portable network vulnerability scanner to a web portal for uploading scans and reviewing AI-assisted reports. I primarily developed the full-stack platform and contributed to the Raspberry Pi/ESP32-S3 communication. **Best Electrical and Computer Engineering Project**, Spring 2026 Senior Design Showcase. | [Portfolio case study](https://abdiel-portfolio.vercel.app/projects/pwnboxer) · *Source not public* |
+| **Vision-Tracked Interactive Turret** | Working face-following prototype connecting an ESP32-S3 camera stream, laptop-based Python/OpenCV tracking, and serial-controlled servo motion. Includes a real demonstration, hardware photos, and attribution for example-derived camera code. | [GitHub repository](https://github.com/abdielmarcano/vision-tracked-interactive-turret) |
+| **Car HUD Pi** | Completed and verified Raspberry Pi car head-up display with an Android companion application, real-time data over USB tethering/WebSockets, a FastAPI backend, and a React interface. | [GitHub repository](https://github.com/abdielmarcano/car-hud-pi) · [Portfolio case study](https://abdiel-portfolio.vercel.app/projects/car-hud-pi) |
+| **Fitopia** | Full-stack fitness application with quests, achievements, leaderboards, an AI assistant, and a MongoDB Atlas backend. The project reached **31 registered users**. | [GitHub repository](https://github.com/abdielmarcano/fitopia) · [Portfolio case study](https://abdiel-portfolio.vercel.app/projects/fitopia) |
+| **Cyclops** | Team-built hackathon prototype combining ultrasonic proximity sensing, YOLO-based computer vision, person tracking, and Android notifications for personal-space awareness. | [Team repository (teammate's account)](https://github.com/KevinTTO5/KHVIII-Personal_Bubble) · [Portfolio case study](https://abdiel-portfolio.vercel.app/projects/cyclops) · [Devpost](https://devpost.com/software/cyclops-xgf2qb) |
+| **Custom Ultrasonic Range Finder** | Designed, assembled, and tested a custom printed circuit board with analog signal conditioning, an ultrasonic sensor, and an embedded display. Demonstrated stable readings to approximately **2 meters**. | [Portfolio case study](https://abdiel-portfolio.vercel.app/projects/ultrasonic-range-finder) |
 
----
+## Other Projects
 
-## 🚀 Projects
+| Project | What I built or contributed | Links |
+| --- | --- | --- |
+| **Burnt Out** | Completed Unreal Engine 5 game with character controls, level design, gameplay logic, and a three-state boss. The team won **Most Complete Game** at a UCF game jam. | [Team repository (teammate's account)](https://github.com/KevinTTO5/Burnt-Out) · [Portfolio case study](https://abdiel-portfolio.vercel.app/projects/burnt-out) |
+| **Analog Distortion Pedal** | Designed, assembled, and tested a working guitar pedal using analog amplification, diode clipping, tone shaping, and bypass switching. | [Portfolio case study](https://abdiel-portfolio.vercel.app/projects/analog-distortion-pedal) |
+| **Analog Guitar Fuzz Circuit** | Built and tested an op-amp-based guitar fuzz circuit with measurement instruments and a guitar amplifier. | [Portfolio case study](https://abdiel-portfolio.vercel.app/projects/fuzz-circuit) |
+| **Portfolio Website** | Designed and developed this portfolio using Next.js, React, and TypeScript. | [GitHub repository](https://github.com/abdielmarcano/portfolio) · [Live website](https://abdiel-portfolio.vercel.app) |
 
-### 🔒 Crown Reserve Systems Portal *(Private — Contract)*
-Multi-tenant business portal built with Next.js and Supabase/Postgres. Features row-level security, role-based access control, and 6 modular workflow tools including inventory, CRM, reminders, marketing, and funnel tracking. Validated across 3 tenant accounts and 9 users. Deployed on Vercel with Sentry monitoring.  
-`Next.js` `Supabase` `PostgreSQL` `RLS` `RBAC` `Vercel`  
-*Code samples available upon request.*  
-→ [Portfolio Page](https://abdiel-portfolio.vercel.app/projects/crown-reserve-systems-portal)
+## Professional Experience
 
----
+**Wire Harness Assembly Lead | 35 Technologies**  
+Promoted to a lead role within four months. Trained 12 technicians, coordinated an 11-person assembly team, investigated electrical test failures, and repaired faulty assemblies and test-fixture wiring.
 
-### 🔐 PwnBoxer *(Private — Senior Design)*
-Network auditing device built on ESP32-S3 and Raspberry Pi CM4. REST API backend with ~12 endpoints for device uploads, report lifecycle tracking, and artifact downloads. Implements stateless JWT auth, API-key-per-device identity, RBAC, and a containerized processing pipeline. Report processing time varies based on document count and content.  
-`ESP32` `Raspberry Pi CM4` `Node.js` `Express` `PostgreSQL` `Prisma` `JWT` `Docker` `Embedded Linux`  
-*Private repo — associated with senior design project.*  
-→ [Portfolio Page](https://abdiel-portfolio.vercel.app/projects/pwnboxer)
+**Lead Full-Stack Developer (Contract) | Crown Reserve Systems**  
+Developed and privately tested a multi-tenant platform for watch and jewelry businesses, combining inventory management, customer workflows, and AI-assisted inventory matching. Implemented tenant-specific data access and role-based permissions. The product has not launched publicly; the source code is private.  
+[Portfolio case study](https://abdiel-portfolio.vercel.app/projects/crown-reserve-systems-portal)
 
----
+## Technical Skills
 
-### 💪 Fitopia
-Gamified fitness web app with a MongoDB Atlas backend, REST API, AI assistant integration, quest systems, leaderboards, and achievements. Supports 31 users, 35 quests, and 17 weekly routines across 5 collections.  
-`MongoDB` `REST APIs` `Auth` `Node.js`  
-→ [Repo](https://github.com/TheBackDimple/fitopia) · [Portfolio Page](https://abdiel-portfolio.vercel.app/projects/fitopia)
+**Programming:** Python, C++, TypeScript, JavaScript, SQL; C and Java (coursework)  
+**Web and backend:** React, Next.js, Node.js, Express, FastAPI, PostgreSQL, Prisma, Supabase, MongoDB, Docker  
+**Embedded and electronics:** ESP32, Raspberry Pi, Arduino, KiCad, printed circuit board design and assembly, electrical testing, analog circuits  
+**Computer vision and AI:** OpenCV, YOLO, DeepSORT, AI model integration
 
----
+## Education
 
-### 👁️ Cyclops — UCF Hackathon (Knight Hacks VIII)
-Personal space awareness and anti-pickpocketing system built in 36 hours. Combines an HC-SR04 ultrasonic sensor with YOLO + DeepSORT computer vision to detect proximity breaches (<5 inches) and time-based tracking violations (>60 seconds, same person). Triggers phone vibration and audible alarm.  
-`YOLO` `DeepSORT` `OpenCV` `Arduino` `HC-SR04` `Python`  
-→ [Repo](https://github.com/KevinTTO5/KHVIII-Personal_Bubble) · [Portfolio Page](https://abdiel-portfolio.vercel.app/projects/cyclops) · [Devpost](https://devpost.com/software/cyclops-xgf2qb)
-
----
-
-### 📡 Custom Ultrasonic Range Finder
-Full hardware lifecycle project for UCF Junior Design. Designed schematic and custom PCB in KiCad, ordered fabricated boards and solder stencil, hand-soldered and stencil-soldered components, and wrote firmware to drive an HC-SR04 sensor, 16x2 LCD display, and potentiometer-controlled LED brightness. Validated stable distance output up to 2000mm.  
-`KiCad` `PCB Design` `Arduino` `C` `LM324` `HC-SR04`  
-→ [Portfolio Page](https://abdiel-portfolio.vercel.app/projects/ultrasonic-range-finder)
-
----
-
-### 🎮 Burnt Out
-First-person horror game built in Unreal Engine 5 over 4–5 weeks for a UCF game jam. Built the player movement system, character controller, HUD, level design for both office levels, Blueprint + C++ gameplay code, title screen cinematic, and voice-acted cutscenes. Features a 3-state AI boss and 2 distinct endings. Won *Most Complete Game* award.  
-`Unreal Engine 5` `Blueprints` `C++` `Game AI`  
-→ [Repo](https://github.com/KevinTTO5/Burnt-Out) · [Portfolio Page](https://abdiel-portfolio.vercel.app/projects/burnt-out)
-
----
-
-### 🎸 Analog Guitar Fuzz Effect Circuit — IEEE UCF
-Analog fuzz effect circuit built on breadboard using an LM741 op-amp for the UCF IEEE Guitar Hero club. Verified with multimeter and oscilloscope, confirmed working on a real guitar amplifier.  
-`Analog Circuits` `LM741` `Op-Amp Design` `Breadboard Prototyping`  
-→ [Portfolio Page](https://abdiel-portfolio.vercel.app/projects/fuzz-circuit)
-
----
-
-### 🚗 Car HUD Pi — IEEE UCF
-Universal heads-up display for older vehicles using Raspberry Pi and OBD-II integration. Displays real-time speed, RPM, and vehicle telemetry projected onto the windshield. Designed for universal vehicle compatibility without permanent modifications.  
-`Raspberry Pi` `FastAPI` `WebSockets` `React` `Kotlin` `OBD-II`  
-→ [Repo](https://github.com/TheBackDimple/car-hud-pi) · [Portfolio Page](https://abdiel-portfolio.vercel.app/projects/car-hud-pi)
-
----
-
-### 🎛️ Analog Distortion Pedal — IEEE UCF
-Fully analog guitar distortion pedal being built for the UCF IEEE Guitar Hero club. Custom PCB design with op-amp gain staging, diode clipping, tone shaping, true bypass switching, and low-noise power supply filtering. PCB arriving soon.  
-`Analog Circuits` `PCB Design` `KiCad` `Op-Amp` `Audio Electronics`  
-→ [Portfolio Page](https://abdiel-portfolio.vercel.app/projects/analog-distortion-pedal)
-
----
-
-### 🌐 Portfolio Website
-Custom portfolio built from scratch in Next.js. Designed to showcase technical credibility through structured project writeups, metrics, architecture sections, and media galleries. Deployed on Vercel.  
-`Next.js` `React` `TypeScript` `Vercel`  
-→ [Repo](https://github.com/TheBackDimple/portfolio) · [Live Site](https://abdiel-portfolio.vercel.app)
-
----
-
-## 💼 Experience
-
-**Lead Full-Stack Developer (Contract)** — Crown Reserve Systems *(Nov 2025 – Present)*  
-Built and deployed a production multi-tenant portal for a real client.
-
-**Computer Modding & Repair Technician (Freelance)** — Self-Employed *(Mar 2024 – Present)*  
-Board-level console repairs, microsoldering, hardware fault diagnosis.
-
----
-
-## 🎓 Education
-
-**B.S. Computer Engineering** — University of Central Florida  
-GPA: 3.4 · Graduated May 2026  
-Organizations: Knight Hacks · IEEE UCF · Knights Experimental Rocketry (KXR)
+**University of Central Florida** · B.S. Computer Engineering, May 2026 · GPA: 3.4  
+IEEE at UCF · Knight Hacks · Knight's Experimental Rocketry
